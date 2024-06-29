@@ -6,13 +6,15 @@ def main():
     Code Your Program here
     ########################################
     """
-
+    while number>0:
+        remainder = number%2
+        result.append(str(remainder))
+        number = number//2
     print(*result)
     ########################################
     # Do not delete the return statement
     ########################################
     return result
-
-
+0
 if __name__ == '__main__':
     main()
